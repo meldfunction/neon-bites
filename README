@@ -1,0 +1,44 @@
+# Neon Bites: DC's Rad Food Guide
+
+## Project Overview
+Neon Bites is a static website showcasing gluten-free and vegetarian dining options in Washington, DC, with an 80s-inspired aesthetic. This guide provides instructions for an AI to generate the site.
+
+## File Structure
+- README.md (this file)
+- DESIGN.md (design principles and considerations)
+- CONTENT_STRUCTURE.md (content organization and page layouts)
+- STYLE_GUIDE.md (CSS and design implementation details)
+- FUNCTIONALITY.md (JavaScript features and implementation)
+- DATA_STRUCTURE.md (how to structure and manage restaurant data)
+- MAP_IMPLEMENTATION.md (instructions for implementing the free map solution)
+
+## Technology Stack
+- Static Site Generator: Jekyll
+- Hosting: GitHub Pages
+- Frontend: HTML5, CSS3, Vanilla JavaScript
+- Search: Lunr.js
+- Map: OpenStreetMap with Leaflet.js
+- Internationalization: Jekyll-polyglot
+
+## Getting Started
+1. Set up a new Jekyll project
+2. Implement the base HTML structure as outlined in CONTENT_STRUCTURE.md
+3. Apply styles according to STYLE_GUIDE.md
+4. Add functionality as described in FUNCTIONALITY.md
+5. Integrate map features following MAP_IMPLEMENTATION.md
+6. Populate with initial restaurant data as structured in DATA_STRUCTURE.md
+
+## Key Features to Implement
+- Responsive design for mobile and desktop
+- Advanced search functionality using Lunr.js
+- Interactive map using OpenStreetMap and Leaflet.js
+- Filtering capabilities for restaurants
+- Internationalization support
+
+## Development Workflow
+1. Create new branches for each feature
+2. Regularly commit changes with descriptive messages
+3. Create pull requests for review before merging into main
+4. Use GitHub Actions for automated builds and deployments
+
+Remember to refer to individual files for detailed instructions on each aspect of the site development.

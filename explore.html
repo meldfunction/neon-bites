@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>Explore Neon Bites</h1>
+
+<div class="filters">
+  {# Filters go here #}
+</div>
+
+<div class="restaurant-grid">
+  {% for restaurant in site.data.restaurants.restaurants %}
+  <a href="{{ site.baseurl }}/restaurants/{{ restaurant.slug }}" class="restaurant-card">
+    {# Restaurant card content goes here #}
+  </a>
+  {% endfor %}
+</div>

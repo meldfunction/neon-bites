@@ -1,0 +1,458 @@
+last_updated: 2023-05-20
+
+restaurants:
+  - name: Oyster Oyster
+    slug: oyster-oyster
+    type: Fine Dining
+    michelin_stars: 1
+    dietary_options:
+      vegan: true
+      vegetarian: true
+      gluten_free: true
+    cuisine: Modern American
+    price_range: $$$
+    address:
+      street: 1440 8th St NW
+      city: Washington
+      state: DC
+      zip_code: 20001
+    location:
+      lat: 38.9094
+      lng: -77.0242
+    contact:
+      phone: (202) 919-0324
+      website: https://oysteroysterdc.com
+    hours:
+      tuesday_saturday: 5:30 PM - 10:00 PM
+      sunday_monday: Closed
+    description: Plant-forward menu, vegan options, gluten-free options available
+    famous_dish: Seasonal mushroom dish
+    reservations: Required
+    best_day: Tuesday-Saturday
+    fun_fact: Named after mushrooms and bivalves, two regenerative foods
+    years_in_operation: 3
+    founded: 2020
+    founders:
+      - Rob Rubba
+      - Max Kuller
+      - Adam Bernbach
+    restaurant_group: null
+
+  - name: Sweet Crimes
+    slug: sweet-crimes  
+    type: Bakery
+    dietary_options:
+      gluten_free: true
+      vegan: true
+    cuisine: Bakery
+    price_range: $$
+    address:
+      street: 1829 14th St NW
+      city: Washington
+      state: DC
+      zip_code: 20009
+    location:
+      lat: 38.9147
+      lng: -77.0318
+    contact:
+      phone: (202) 332-2066
+      website: https://www.sweetcrimes.com
+    hours:
+      daily: 10:00 AM - 6:00 PM
+    description: 100% gluten-free bakery, vegan options available
+    famous_dish: Cinnamon Roll (gluten-free and vegan)
+    reservations: Not required
+    fun_fact: Started as a farmers market stand before opening a brick-and-mortar location
+    years_in_operation: 5
+    founded: 2018
+    founders:
+      - Keri Lijinsky
+    restaurant_group: null
+
+  - name: Chaia
+    slug: chaia
+    type: Fast Casual
+    dietary_options:
+      vegetarian: true
+      vegan: true 
+      gluten_free: true
+    cuisine: Tacos
+    price_range: $$
+    address:
+      street: 615 I St NW
+      city: Washington
+      state: DC
+      zip_code: 20001
+    location:
+      lat: 38.9001
+      lng: -77.0223
+    contact:
+      phone: (202) 567-9292
+      website: https://www.chaiatacos.com
+    hours:
+      monday_friday: 11:00 AM - 8:00 PM
+      saturday_sunday: 11:00 AM - 7:00 PM
+    description: 100% vegetarian tacos, many vegan options, corn tortillas
+    famous_dish: Mushroom Taco
+    reservations: Not required
+    fun_fact: All tacos can be made vegan upon request
+    years_in_operation: 8
+    founded: 2015
+    founders:
+      - Suzanne Simon
+      - Bettina Stern
+    restaurant_group: null
+    sister_restaurants:
+      - name: Chaia Bethesda
+        address: 7237 Woodmont Ave, Bethesda, MD 20814
+
+  - name: Fancy Radish
+    slug: fancy-radish
+    type: Fine Dining
+    dietary_options:
+      vegan: true
+      gluten_free: true
+    cuisine: Vegan
+    price_range: $$$
+    address:
+      street: 600 H St NE
+      city: Washington
+      state: DC
+      zip_code: 20002
+    location:
+      lat: 38.9001
+      lng: -76.9987
+    contact:
+      phone: (202) 675-8341
+      website: https://www.fancyradishdc.com
+    hours:
+      wednesday_saturday: 5:00 PM - 10:00 PM
+      sunday: 5:00 PM - 9:00 PM
+      monday_tuesday: Closed
+    description: Upscale vegan dining with gluten-free options
+    famous_dish: Rutabaga Fondue
+    reservations: Recommended
+    fun_fact: Sister restaurant to famous Philadelphia vegan restaurant Vedge
+    years_in_operation: 5
+    founded: 2018
+    founders:
+      - Rich Landau
+      - Kate Jacoby
+    restaurant_group: Vedge Restaurant Group
+    sister_restaurants:
+      - name: Vedge
+        location: Philadelphia, PA
+      - name: V Street
+        location: Philadelphia, PA
+      - name: Wiz Kid
+        location: Philadelphia, PA
+
+  - name: HipCityVeg
+    slug: hipcityveg
+    type: Fast Casual
+    dietary_options:
+      vegan: true
+      gluten_free: true
+    cuisine: American
+    price_range: $$
+    address:
+      street: 712 7th St NW
+      city: Washington
+      state: DC
+      zip_code: 20001
+    location:
+      lat: 38.8982
+      lng: -77.0218
+    contact:
+      phone: (202) 621-8057
+      website: https://hipcityveg.com
+    hours:
+      daily: 11:00 AM - 9:00 PM
+    description: 100% vegan fast food with gluten-free options
+    famous_dish: Crispy HipCity Ranch
+    reservations: Not required
+    fun_fact: Founded by Nicole Marquis, a vegan since college
+    years_in_operation: 11
+    founded: 2012
+    founders:
+      - Nicole Marquis
+    restaurant_group: HipCityVeg
+    sister_restaurants:
+      - name: HipCityVeg Philadelphia
+        location: Multiple locations in Philadelphia, PA
+      - name: HipCityVeg New York
+        location: New York, NY
+
+  - name: Shouk
+    slug: shouk
+    type: Fast Casual
+    dietary_options:
+      vegan: true
+      gluten_free: true
+    cuisine: Middle Eastern
+    price_range: $$
+    address:
+      street: 655 K St NW
+      city: Washington
+      state: DC
+      zip_code: 20001
+    location:
+      lat: 38.9025
+      lng: -77.0211
+    contact:
+      phone: (202) 652-1464
+      website: https://www.shouk.com
+    hours:
+      monday_friday: 11:00 AM - 8:00 PM
+      saturday_sunday: 11:30 AM - 8:00 PM
+    description: 100% plant-based Middle Eastern cuisine with gluten-free options
+    famous_dish: Shouk Burger
+    reservations: Not required
+    fun_fact: Name means "marketplace" in Hebrew and Arabic
+    years_in_operation: 7
+    founded: 2016
+    founders:
+      - Ran Nussbacher
+    restaurant_group: null
+    sister_restaurants:
+      - name: Shouk Union Market
+        address: 1309 5th St NE, Washington, DC 20002
+
+  - name: Fruitive
+    slug: fruitive
+    type: Fast Casual
+    dietary_options:
+      vegan: true
+      gluten_free: true
+    cuisine: Health Food
+    price_range: $$
+    address:
+      street: 1094 Palmer Alley NW
+      city: Washington
+      state: DC
+      zip_code: 20001
+    location:
+      lat: 38.8982
+      lng: -77.0223
+    contact:
+      phone: (202) 836-7749
+      website: https://fruitive.com
+    hours:
+      monday_friday: 8:00 AM - 8:00 PM
+      saturday_sunday: 9:00 AM - 8:00 PM
+    description: 100% plant-based, organic cafe with many gluten-free options
+    famous_dish: Avocado Toast
+    reservations: Not required
+    fun_fact: First certified organic fast-casual restaurant in North America
+    years_in_operation: 8
+    founded: 2015
+    founders:
+      - Gregg Rozeboom
+    restaurant_group: null
+
+  - name: Busboys and Poets
+    slug: busboys-and-poets
+    type: Casual Dining
+    dietary_options:
+      vegetarian: true
+      vegan: true
+      gluten_free: true
+    cuisine: American
+    price_range: $$
+    address:
+      street: 450 K St NW
+      city: Washington
+      state: DC
+      zip_code: 20001
+    location:
+      lat: 38.9025
+      lng: -77.0165
+    contact:
+      phone: (202) 789-2227
+      website: https://www.busboysandpoets.com
+    hours:
+      sunday_thursday: 8:00 AM - 10:00 PM
+      friday_saturday: 8:00 AM - 11:00 PM
+    description: Restaurant, bookstore, and gathering place with many vegan and gluten-free options
+    famous_dish: Vegan Nachos
+    reservations: Accepted
+    fun_fact: Named after American poet Langston Hughes, who worked as a busboy
+    years_in_operation: 16
+    founded: 2005
+    founders:
+      - Andy Shallal
+    restaurant_group: Busboys and Poets
+    sister_restaurants:
+      - name: Busboys and Poets Brookland
+        location: Washington, DC
+      - name: Busboys and Poets Anacostia
+        location: Washington, DC
+
+  - name: Equinox Restaurant
+    slug: equinox-restaurant
+    type: Fine Dining
+    dietary_options:
+      vegetarian: true
+      vegan: true
+      gluten_free: true
+    cuisine: Contemporary American
+    price_range: $$$
+    address:
+      street: 818 Connecticut Ave NW
+      city: Washington
+      state: DC
+      zip_code: 20006
+    location:
+      lat: 38.9016
+      lng: -77.0395
+    contact:
+      phone: (202) 331-8118
+      website: https://equinoxrestaurant.com
+    hours:
+      monday_friday: 11:30 AM - 2:00 PM, 5:30 PM - 10:00 PM
+      saturday: 5:30 PM - 10:30 PM
+      sunday: 11:00 AM - 2:00 PM, 5:30 PM - 9:30 PM
+    description: Upscale dining with plant-based tasting menu and many gluten-free options
+    famous_dish: Plant-based tasting menu
+    reservations: Recommended
+    fun_fact: One of the first fine dining restaurants in DC to offer a full vegan tasting menu
+    years_in_operation: 23
+    founded: 1999
+    founders:
+      - Todd Gray
+      - Ellen Kassoff Gray
+    restaurant_group: null
+
+  - name: Flower Child
+    slug: flower-child
+    type: Fast Casual
+    dietary_options:
+      vegetarian: true
+      vegan: true
+      gluten_free: true
+    cuisine: Health Food
+    price_range: $$
+    address:
+      street: 2112 Pennsylvania Ave NW
+      city: Washington
+      state: DC
+      zip_code: 20037
+    location:
+      lat: 38.9015
+      lng: -77.0478
+    contact:
+      phone: (202) 625-3065
+      website: https://www.iamaflowerchild.com
+    hours:
+      daily: 11:00 AM - 9:00 PM
+    description: Health-focused bowls, wraps, and salads with many vegan and gluten-free options
+    famous_dish: Mother Earth Bowl
+    reservations: Not required
+    fun_fact: Part of Fox Restaurant Concepts, known for health-conscious eateries
+    years_in_operation: 5
+    founded: 2018
+    founders:
+      - Sam Fox
+    restaurant_group: Fox Restaurant Concepts
+
+  - name: Fare Well
+    slug: fare-well
+    type: Casual Dining
+    dietary_options:
+      vegan: true
+      gluten_free: true
+    cuisine: Diner
+    price_range: $$
+    address:
+      street: 406 H St NE
+      city: Washington
+      state: DC
+      zip_code: 20002
+    location:
+      lat: 38.9001
+      lng: -76.9987
+    contact:
+      phone: (202) 367-9600
+      website: https://www.eatfarewell.com
+    hours:
+      tuesday_friday: 11:00 AM - 10:00 PM
+      saturday_sunday: 10:00 AM - 10:00 PM
+      monday: Closed
+    description: Vegan diner and bakery with gluten-free options
+    famous_dish: Vegan Nachos Grande
+    reservations: Accepted
+    fun_fact: Sister restaurant to Sticky Fingers Sweets & Eats
+    years_in_operation: 7
+    founded: 2016
+    founders:
+      - Doron Petersan
+    restaurant_group: null
+    sister_restaurants:
+      - name: Sticky Fingers Sweets & Eats
+        location: Washington, DC
+
+  - name: Bindaas
+    slug: bindaas
+    type: Casual Dining
+    dietary_options:
+      vegetarian: true
+      vegan: true
+      gluten_free: true
+    cuisine: Indian Street Food
+    price_range: $$
+    address:
+      street: 2000 Pennsylvania Ave NW
+      city: Washington
+      state: DC
+      zip_code: 20006
+    location:
+      lat: 38.9011
+      lng: -77.0467
+    contact:
+      phone: (202) 516-4326
+      website: https://www.bindaasdc.com
+    hours:
+      monday_thursday: 11:30 AM - 10:00 PM
+      friday: 11:30 AM - 10:30 PM
+      saturday: 11:00 AM - 10:30 PM
+      sunday: 11:00 AM - 9:00 PM
+    description: Indian street food with many vegetarian, vegan, and gluten-free options
+    famous_dish: Goan Pork Vindaloo Sandwich
+    reservations: Accepted
+    fun_fact: "Bindaas" means "cool" or "carefree" in Hindi slang
+    years_in_operation: 7
+    founded: 2016
+    founders:
+      - Ashok Bajaj
+    restaurant_group: Knightsbridge Restaurant Group
+    sister_restaurants:
+      - name: Rasika
+        location: Washington, DC
+      - name: Bombay Club
+        location: Washington, DC
+
+   - name: Sticky Fingers Sweets & Eats
+    slug: sticky-fingers
+    type: Bakery
+    dietary_options:
+      vegan: true
+      gluten_free: true
+    cuisine: Bakery
+    price_range: $$
+    address:
+      street: 1370 Park Rd NW
+      city: Washington
+      state: DC
+      zip_code: 20010
+    location:
+      lat: 38.9315
+      lng: -77.0320
+    contact:
+      phone: (202) 299-9700
+      website: https://www.stickyfingersbakery.com
+    hours:
+      daily: 8:00 AM - 8:00 PM
+    description: Vegan bakery and cafe with gluten-free options
+    famous_dish: Little Devil (vegan version of a Devil Dog)
+    reservations: Not required
+    fun_fact: Owner Doron Petersan is a two-time winner of Food Network's Cupcake Wars

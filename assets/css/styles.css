@@ -1,0 +1,82 @@
+/* styles.css */
+
+/* Base Styles */
+:root {
+  --color-pink: #FFB3BA;
+  --color-teal: #84DCC6;
+  --color-blue: #4D9DE0;
+  --color-purple: #7E4C74;
+  --color-yellow: #FFF700;
+  --color-orange: #FF6700;
+  --color-white: #F1F1F2;
+  --color-charcoal: #1D1E2C;
+
+  --font-heading: 'Outrun future', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+  --font-accent: 'VCR OSD Mono', monospace;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-charcoal);
+  color: var(--color-white);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-pink);
+}
+
+/* Component Styles */
+.button {
+  background-color: var(--color-teal);
+  color: var(--color-charcoal);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--font-accent);
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px var(--color-teal);
+}
+
+.button:hover {
+  background-color: var(--color-pink);
+  box-shadow: 0 0 20px var(--color-pink);
+}
+
+.restaurant-card {
+  background-color: var(--color-charcoal);
+  border: 2px solid var(--color-teal);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(132, 220, 198, 0.3);
+}
+
+.restaurant-card__name {
+  font-family: var(--font-heading);
+  color: var(--color-yellow);
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.restaurant-card__cuisine {
+  font-family: var(--font-accent);
+  color: var(--color-pink);
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
