@@ -2,16 +2,59 @@
 layout: default
 ---
 
-<h1>Explore Neon Bites</h1>
+<section class="explore">
+  <h1>Explore Neon Bites</h1>
 
-<div class="filters">
-  {# Filters go here #}
-</div>
+  <div class="filters">
+    <div class="filters__section">
+      <label for="cuisine-filter">Cuisine:</label>
+      <select id="cuisine-filter" class="filters__input">
+        <option value="">All Cuisines</option>
+        {% for cuisine in site.data.cuisines %}
+        <option value="{{ cuisine.slug }}">{{ cuisine.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
 
-<div class="restaurant-grid">
-  {% for restaurant in site.data.restaurants.restaurants %}
-  <a href="{{ site.baseurl }}/restaurants/{{ restaurant.slug }}" class="restaurant-card">
-    {# Restaurant card content goes here #}
-  </a>
-  {% endfor %}
-</div>
+    <div class="filters__section">
+      <label for="dietary-filter">Dietary Needs:</label>
+      <div class="filters__checkboxes">
+        <label>
+          <input type="checkbox" id="vegan-filter" value="vegan"> 🥬 Vegan
+        </label>
+        <label>
+          <input type="checkbox" id="vegetarian-filter" value="vegetarian"> 🥕 Vegetarian
+        </label>
+        <label>
+          <input type="checkbox" id="gluten-free-filter" value="gluten_free"> 🌾 Gluten-Free
+        </label>
+      </div>
+    </div>
+
+    <div class="filters__section">
+      <label for="price-filter">Price Range:</label>
+      <select id="price-filter" class="filters__input">
+        <option value="">All Price Ranges</option>
+        <option value="$">$</option>
+        <option value="$$">$$</option>
+        <option value="$$$">$$$</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="restaurant-grid">
+    {% for restaurant in site.data.restaurants.restaurants %}
+    <a href="{{ site.baseurl }}/restaurants/{{ restaurant.slug }}" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('{{ restaurant.image }}');"></div>
+      <h3 class="restaurant-card__name">{{ restaurant.name }}</h3>
+      <p class="restaurant-card__cuisine">{{ restaurant.cuisine }}</p>
+      <p class="restaurant-card__dietary-options">
+        {% if restaurant.dietary_options.vegan %}🥬{% endif %}
+        {% if restaurant.dietary_options.vegetarian %}🥕{% endif %}
+        {% if restaurant.dietary_options.gluten_free %}🌾{% endif %}
+      </p>
+      <p class="restaurant-card__price-range">{{ restaurant.price_range }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
