@@ -1,3 +1,4 @@
+# Site settings
 title: Neon Bites: DC's Rad Food Guide
 email: neonbites@example.com
 description: >-
@@ -16,3 +17,36 @@ languages: ["en", "es", "ar"]
 default_lang: en
 exclude_from_localization: ["javascript", "images", "css"]
 parallel_localization: true
+
+# Collections
+collections:
+  restaurants:
+    output: true
+    permalink: /restaurants/:slug
+
+# Front matter defaults
+defaults:
+  - scope:
+      path: ""
+      type: "restaurants"
+    values:
+      layout: "restaurant"
+
+# Other settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Asset pipeline
+asset_source_dirs:
+  - assets/css
+  - assets/js
+  - assets/images
+
+assets:
+  digest: true
+  compression:
+    css: sass
+    js: uglifier
