@@ -1,5 +1,3 @@
-last_updated: 2023-05-20
-
 restaurants:
   - name: Oyster Oyster
     slug: oyster-oyster
@@ -39,7 +37,7 @@ restaurants:
     restaurant_group: null
 
   - name: Sweet Crimes
-    slug: sweet-crimes  
+    slug: sweet-crimes
     type: Bakery
     dietary_options:
       gluten_free: true
@@ -74,7 +72,7 @@ restaurants:
     type: Fast Casual
     dietary_options:
       vegetarian: true
-      vegan: true 
+      vegan: true
       gluten_free: true
     cuisine: Tacos
     price_range: $$
@@ -104,7 +102,14 @@ restaurants:
     restaurant_group: null
     sister_restaurants:
       - name: Chaia Bethesda
-        address: 7237 Woodmont Ave, Bethesda, MD 20814
+        address:
+          street: 7237 Woodmont Ave
+          city: Bethesda
+          state: MD
+          zip_code: 20814
+        location:
+          lat: 38.9745
+          lng: -77.0994
 
   - name: Fancy Radish
     slug: fancy-radish
@@ -129,7 +134,7 @@ restaurants:
       wednesday_saturday: 5:00 PM - 10:00 PM
       sunday: 5:00 PM - 9:00 PM
       monday_tuesday: Closed
-    description: Upscale vegan dining with gluten-free options
+    description: "Upscale vegan dining with gluten-free options, known for its \"creative\" approach"
     famous_dish: Rutabaga Fondue
     reservations: Recommended
     fun_fact: Sister restaurant to famous Philadelphia vegan restaurant Vedge
@@ -276,7 +281,7 @@ restaurants:
     description: Restaurant, bookstore, and gathering place with many vegan and gluten-free options
     famous_dish: Vegan Nachos
     reservations: Accepted
-    fun_fact: Named after American poet Langston Hughes, who worked as a busboy
+    fun_fact: "Named after American poet Langston Hughes, who worked as a \"busboy\""
     years_in_operation: 16
     founded: 2005
     founders:
@@ -419,7 +424,7 @@ restaurants:
     description: Indian street food with many vegetarian, vegan, and gluten-free options
     famous_dish: Goan Pork Vindaloo Sandwich
     reservations: Accepted
-    fun_fact: "Bindaas" means "cool" or "carefree" in Hindi slang
+    fun_fact: "\"Bindaas\" means \"cool\" or \"carefree\" in Hindi slang"
     years_in_operation: 7
     founded: 2016
     founders:
@@ -431,7 +436,7 @@ restaurants:
       - name: Bombay Club
         location: Washington, DC
 
-   - name: Sticky Fingers Sweets & Eats
+  - name: Sticky Fingers Sweets & Eats
     slug: sticky-fingers
     type: Bakery
     dietary_options:
@@ -456,3 +461,8 @@ restaurants:
     famous_dish: Little Devil (vegan version of a Devil Dog)
     reservations: Not required
     fun_fact: Owner Doron Petersan is a two-time winner of Food Network's Cupcake Wars
+    years_in_operation: 20
+    founded: 2002
+    founders:
+      - Doron Petersan
+    restaurant_group: null

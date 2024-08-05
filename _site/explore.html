@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Bite DC's Rad Food Guide</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="logo">Neon Bite DC's Rad Food Guide</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="explore">
+  <h1>Explore Neon Bites</h1>
+
+  <div class="filters">
+    <div class="filters__section">
+      <label for="cuisine-filter">Cuisine:</label>
+      <select id="cuisine-filter" class="filters__input">
+        <option value="">All Cuisines</option>
+        
+      </select>
+    </div>
+
+    <div class="filters__section">
+      <label for="dietary-filter">Dietary Needs:</label>
+      <div class="filters__checkboxes">
+        <label>
+          <input type="checkbox" id="vegan-filter" value="vegan"> 🥬 Vegan
+        </label>
+        <label>
+          <input type="checkbox" id="vegetarian-filter" value="vegetarian"> 🥕 Vegetarian
+        </label>
+        <label>
+          <input type="checkbox" id="gluten-free-filter" value="gluten_free"> 🌾 Gluten-Free
+        </label>
+      </div>
+    </div>
+
+    <div class="filters__section">
+      <label for="price-filter">Price Range:</label>
+      <select id="price-filter" class="filters__input">
+        <option value="">All Price Ranges</option>
+        <option value="$">$</option>
+        <option value="$$">$$</option>
+        <option value="$$$">$$$</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="restaurant-grid">
+    
+    <a href="/restaurants/oyster-oyster" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">Oyster Oyster</h3>
+      <p class="restaurant-card__cuisine">Modern American</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        🥕
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$$</p>
+    </a>
+    
+    <a href="/restaurants/sweet-crimes" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">Sweet Crimes</h3>
+      <p class="restaurant-card__cuisine">Bakery</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$</p>
+    </a>
+    
+    <a href="/restaurants/chaia" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">Chaia</h3>
+      <p class="restaurant-card__cuisine">Tacos</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        🥕
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$</p>
+    </a>
+    
+    <a href="/restaurants/fancy-radish" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">Fancy Radish</h3>
+      <p class="restaurant-card__cuisine">Vegan</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$$</p>
+    </a>
+    
+    <a href="/restaurants/hipcityveg" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">HipCityVeg</h3>
+      <p class="restaurant-card__cuisine">American</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$</p>
+    </a>
+    
+    <a href="/restaurants/shouk" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">Shouk</h3>
+      <p class="restaurant-card__cuisine">Middle Eastern</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$</p>
+    </a>
+    
+    <a href="/restaurants/fruitive" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">Fruitive</h3>
+      <p class="restaurant-card__cuisine">Health Food</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$</p>
+    </a>
+    
+    <a href="/restaurants/busboys-and-poets" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">Busboys and Poets</h3>
+      <p class="restaurant-card__cuisine">American</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        🥕
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$</p>
+    </a>
+    
+    <a href="/restaurants/equinox-restaurant" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">Equinox Restaurant</h3>
+      <p class="restaurant-card__cuisine">Contemporary American</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        🥕
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$$</p>
+    </a>
+    
+    <a href="/restaurants/flower-child" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">Flower Child</h3>
+      <p class="restaurant-card__cuisine">Health Food</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        🥕
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$</p>
+    </a>
+    
+    <a href="/restaurants/fare-well" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">Fare Well</h3>
+      <p class="restaurant-card__cuisine">Diner</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$</p>
+    </a>
+    
+    <a href="/restaurants/bindaas" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">Bindaas</h3>
+      <p class="restaurant-card__cuisine">Indian Street Food</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        🥕
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$</p>
+    </a>
+    
+    <a href="/restaurants/sticky-fingers" class="restaurant-card">
+      <div class="restaurant-card__image" style="background-image: url('');"></div>
+      <h3 class="restaurant-card__name">Sticky Fingers Sweets & Eats</h3>
+      <p class="restaurant-card__cuisine">Bakery</p>
+      <p class="restaurant-card__dietary-options">
+        🥬
+        
+        🌾
+      </p>
+      <p class="restaurant-card__price-range">$$</p>
+    </a>
+    
+  </div>
+</section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Neon Bite DC's Rad Food Guide. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

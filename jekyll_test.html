@@ -1,0 +1,28 @@
+---
+layout: default
+title: Jekyll Test Page
+---
+<h1>{{ page.title }}</h1>
+
+<p>This is a test page to check if Jekyll is processing Liquid tags correctly.</p>
+
+<h2>Current Time</h2>
+<p>The current time is: {{ site.time | date_to_rfc822 }}</p>
+
+<h2>List of Pages</h2>
+<ul>
+{% for page in site.pages %}
+  <li>{{ page.title }}</li>
+{% endfor %}
+</ul>
+
+<h2>Custom Variable</h2>
+{% assign test_variable = "This is a test variable" %}
+<p>{{ test_variable }}</p>
+
+<h2>Conditional Statement</h2>
+{% if jekyll.environment == "development" %}
+  <p>This is the development environment.</p>
+{% else %}
+  <p>This is not the development environment.</p>
+{% endif %}
